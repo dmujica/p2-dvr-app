@@ -1,10 +1,26 @@
-.tabs dd {
-	width: 96px;
+
+/*power and record button*/
+.mainnav{
+	margin-bottom: 20px;
+}
+.power, 
+.record {
+top: 20px;
+
 }
 
-.tabs dd.active a {
-background: rgb(201, 136, 136);
-transition: background .5s;
+.power{
+	left: 45px;
 }
 
+ .record {
+	left: 100px;
+} 
 
+/*accordian*/
+
+
+
+
+
+/*volume bar*/

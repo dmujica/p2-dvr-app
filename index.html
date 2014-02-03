@@ -6,43 +6,80 @@
     <title>P2: DVR App</title>
     <link rel="stylesheet" href="css/foundation.css" />
     <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="css/foundation-icons.css" />
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-    <!-- 1st row-->
- <div class="row">   
-<div class="off-canvas-wrap">
-  <div class="inner-wrap">
-    <nav class="tab-bar">
-      <section class="left-small">
-        <a class="left-off-canvas-toggle menu-icon" ><span></span></a>
-      </section>
+  <!-- top buttons -->
+      <div class="row mainnav">
+        <div class="small-6 columns">
+          <a href="power" class="power button regular radius"><i class="fi-power"></i></a>
+        </div>
+        <div class="small-6 columns">
+          <a href="#" class="record button regular radius"><i class="fi-record"></i></a>
+        </div>
+      </div>
+   <!-- accordian -->
+  <div class="row">
+    <div class="small-12 columns">
+    <dl class="accordion" data-accordion>
+  <dd>
+    <a href="#panel1">Main Controls</a>
+    <div id="panel1" class="content active">
+      <div class="row">
+        <div class="small-12 columns">
+        <ul class="button-group radius round">
+          <li><a href="#" class="large button [alert success secondary] ">Chan -</a></li>
+          <li><a href="#" class="large button [alert success secondary] ">Chan +</a></li>
+        </ul>
+      </div> <!-- end column -->
+      <div class="small-12 columns">
+        <ul class="button-group radius round">
+          <li><a href="#" class="large button [alert success secondary] ">Stop</a></li>
+          <li><a href="#" class="large button [alert success secondary] ">Play/Pause</a></li>
+        </ul>
+      </div> <!-- end column -->
+       <div class="small-12 columns">
+        <ul class="button-group radius round">
+          <li><a href="#" class="large button [alert success secondary] ">Rewind</a></li>
+          <li><a href="#" class="large button [alert success secondary] ">Fast Forward</a></li>
+        </ul>
+      </div> <!-- end column -->
+      </div>  <!-- endrow -->
+      <div class="tabs-content">
+        <div class="content active" id="panel2-1">
+         
+        </div>
+        <div class="content" id="panel2-2">
+          
+        </div>
+        <div class="content" id="panel2-3">
+          
+        </div>
+        
+      </div>
+    </div>
+  </dd>
+  <dd>
+    <a href="#panel2">Recorded Shows</a>
+    <div id="panel2" class="content">
+      
+    </div>
+  </dd>
+</dl>
+  </div> <!--end of column  -->
+ </div> <!--end of row  -->
 
-      <section class="middle tab-bar-section">
-        <h1 class="title">p2-dvr-app</h1>
-      </section>
-
-    </nav>
-
-    <aside class="left-off-canvas-menu">
-      <ul class="off-canvas-list">
-        <li><label>Foundation</label></li>
-        <li><a href="#">The Psychohistorians</a></li>
-        ...
-      </ul>
-    </aside>
-
-    <section class="main-section">
-      <!-- content goes here -->
-    </section>
-
-  <a class="exit-off-canvas"></a>
-
-  </div>
-</div>
-</div> <!-- end of 1st row -->
-
-    
+ <div class="row">
+   <div class="small-12 columns">
+     <div class="button-bar">
+        <ul class="button-group radius round">
+          <li><a href="#" class="large button [alert success secondary] ">VOL -</a></li>
+          <li><a href="#" class="large button [alert success secondary] ">VOL +</a></li>
+        </ul>
+     </div>
+   </div>
+ </div>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/foundation.min.js"></script>
     <script>
