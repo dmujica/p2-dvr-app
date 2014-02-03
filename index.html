@@ -11,20 +11,22 @@
   </head>
   <body>
   <!-- top buttons -->
-      <div class="row mainnav">
-        <div class="small-6 columns">
-          <a href="power" class="power button regular radius"><i class="fi-power"></i></a>
-        </div>
-        <div class="small-6 columns">
-          <a href="#" class="record button regular radius"><i class="fi-record"></i></a>
-        </div>
-      </div>
+  <div class="row topbuttons">
+   <div class="small-12 columns">
+     <div class="button-bar">
+        <ul class="button-group radius round">
+          <li><a href="#" class="large button alert">REC</a></li>
+          <li><a href="#" class="large button success">PWR</a></li>
+        </ul>
+     </div>
+   </div>
+ </div>
    <!-- accordian -->
   <div class="row">
     <div class="small-12 columns">
-    <dl class="accordion" data-accordion>
+      <dl class="accordion" data-accordion>
   <dd>
-    <a href="#panel1">Main Controls</a>
+    <a href="#panel1">Accordion 1</a>
     <div id="panel1" class="content active">
       <div class="row">
         <div class="small-12 columns">
@@ -43,60 +45,51 @@
         <ul class="button-group radius round">
           <li><a href="#" class="large button [alert success secondary] ">Rewind</a></li>
           <li><a href="#" class="large button [alert success secondary] ">Fast Forward</a></li>
-        </ul>
-      </div> <!-- end column -->
-      </div>  <!-- endrow -->
-      <div class="tabs-content">
-        <div class="content active" id="panel2-1">
-         
-        </div>
-        <div class="content" id="panel2-2">
-          
-        </div>
-        <div class="content" id="panel2-3">
-          
-        </div>
-        
+        </ul>     
       </div>
     </div>
   </dd>
   <dd>
-    <!-- recorded shows slider -->
-    <a href="#panel2">Recorded Shows</a>
+
+<!-- recorded show library slider -->
+    <a href="#panel2">Accordion 2</a>
     <div id="panel2" class="content">
-      <ul class="example-orbit" data-orbit>
-  <li>
-    <img src="img/hell.jpg" alt="slide 1" />
-    <div class="orbit-caption">
-      Caption One.
+  <ul class="example-orbit" data-orbit>
+      <li>
+        <img src="img/hell.jpg" alt="slide 1" />
+         <div class="orbit-caption">
+                    Hell on Wheels
+         </div>
+            </li>
+            <li>
+        <img src="img/board.jpg" alt="slide 2" />
+          <div class="orbit-caption">
+            Boardwalk Empire
+            </div>
+            </li>
+            <li>
+          <img src="img/mad.jpg" alt="slide 3" />
+            <div class="orbit-caption">
+            Mad Men
+         </div>
+      </li>
+  </ul>
     </div>
-  </li>
-  <li>
-    <img src="img/board.jpg" alt="slide 2" />
-    <div class="orbit-caption">
-      Caption Two.
-    </div>
-  </li>
-  <li>
-    <img src="img/mad.jpg" alt="slide 3" />
-    <div class="orbit-caption">
-      Caption Three.
-    </div>
-  </li>
-</ul>
-    </div>
+  </dd>
+  <dd>
+    
   </dd>
 </dl>
 
   </div> <!--end of column  -->
  </div> <!--end of row  -->
 
- <div class="row">
+ <div class="row btmbuttons">
    <div class="small-12 columns">
      <div class="button-bar">
         <ul class="button-group radius round">
-          <li><a href="#" class="large button [alert success secondary] ">VOL -</a></li>
-          <li><a href="#" class="large button [alert success secondary] ">VOL +</a></li>
+          <li><a href="#" class="large button success">VOL -</a></li>
+          <li><a href="#" class="large button success">VOL +</a></li>
         </ul>
      </div>
    </div>

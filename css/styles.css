@@ -1,26 +1,22 @@
+body{
+	background: lightgrey;
+}
 
 /*power and record button*/
-.mainnav{
-	margin-bottom: 20px;
+.topbuttons {
+	margin-top: 20px;
 }
-.power, 
-.record {
-top: 20px;
-
-}
-
-.power{
-	left: 45px;
-}
-
- .record {
-	left: 100px;
-} 
 
 /*accordian*/
 
+.orbit-container{
+	height: 700px;
+}
 
 
 
 
 /*volume bar*/
+.btmbuttons {
+	margin-top: 20px;
+}
