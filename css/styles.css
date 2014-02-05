@@ -2,21 +2,13 @@ body{
 	background: lightgrey;
 }
 
-/*power and record button*/
-.topbuttons {
-	margin-top: 20px;
-}
 
-/*accordian*/
+
 
 .orbit-container{
-	height: 565px;
+	height: 600px;
 }
 
 
 
 
-/*volume bar*/
-.btmbuttons {
-	margin-top: 20px;
-}
