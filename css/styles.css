@@ -35,3 +35,20 @@ body{
 #right-label {
 	width: 180px;
 }
+
+.profile {
+	width: 40%;
+}
+
+#panel3 li{
+ list-style: none;
+ font-size: 2em;
+}
+
+#panel3 a{
+	color: grey;
+}
+
+#panel3 a:hover{
+	color: black;
+}
