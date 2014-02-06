@@ -6,9 +6,12 @@ h3 {
 
 }
 
+#panel1 {
+	padding: 10px;
+}
 
 .orbit-container{
-	height: 600px;
+	height: 400px;
 }
 
 
