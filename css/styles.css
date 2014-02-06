@@ -1,6 +1,23 @@
 body{
 	background: #665f66;
 }
+#welcome{
+ margin: 20px 0 0 17px;
+}
+
+#welcome a{
+	font-size: 2em;
+	color: white;
+}
+
+.reveal-modal p{
+	font-size: 1.2em;
+	margin-bottom: 30px;
+}
+
+.reveal-modal li{
+	list-style: none;
+}
 
 .rec, .pwr {
 	margin-top: 35px;
