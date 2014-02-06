@@ -1,5 +1,6 @@
 body{
-	background: #665f66;
+	background: #242429;
+
 }
 #welcome{
  margin: 20px 0 0 17px;
@@ -7,7 +8,7 @@ body{
 
 #welcome a{
 	font-size: 2em;
-	color: white;
+	color: #fff;
 }
 
 .reveal-modal p{
