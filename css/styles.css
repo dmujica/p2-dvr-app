@@ -2,7 +2,9 @@ body{
 	background: lightgrey;
 }
 
+h3 {
 
+}
 
 
 .orbit-container{
@@ -11,6 +13,6 @@ body{
 
 
 .icons {
-	width: 40%;
+	width: 30%;
 }
 
