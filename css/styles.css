@@ -40,15 +40,19 @@ body{
 	width: 40%;
 }
 
-#panel3 li{
+#panel4 li{
  list-style: none;
  font-size: 2em;
 }
 
-#panel3 a{
+#panel4 a{
 	color: grey;
 }
 
-#panel3 a:hover{
+#panel4 a:hover{
 	color: black;
+}
+
+.accordion {
+	margin-bottom: 50px;
 }

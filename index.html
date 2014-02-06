@@ -10,11 +10,10 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
-
     <!-- top buttons -->
   <div class="row">
     <div class="column grid_12">
-      <a href="#" class="button tiny radius secondary rec"><img class="icons"src="img/record.svg"></a>
+      <a href="#" class="button tiny radius secondary rec" data-tooltip class="has-tip" title="record your shows using this record button"><img class="icons"src="img/record.svg"></a>
       <a href="#" class="button tiny radius secondary pwr"><img class="icons"src="img/power.svg"></a>
     </div>
   </div>
@@ -59,17 +58,17 @@
             <div class="small-8">
               <div id="searchbar" class="row">
                 <div class="small-3 columns">
-                  <label for="right-label" class="right inline"><img src="img/magnifying-glass.svg"></label>
+                  <label for="right-label" class="right inline" data-tooltip class="has-tip" title="Search your recorded shows"><a href="#"><img src="img/magnifying-glass.svg"></a></label>
                 </div>
                 <div class="small-9 columns">
-                  <input type="text" id="right-label" placeholder="Search">
+                  <input type="text" id="right-label" placeholder="Search" data-tooltip class="has-tip" title="Search your recorded shows">
                 </div>
               </div>
             </div>
           </div>
         </form>
 
-  <!-- recorded show library slider -->  
+  <!-- recorded show library slider --> 
         <ul class="example-orbit" data-orbit>
             <li>
               <img src="img/hell.jpg" alt="slide 1" />
@@ -90,16 +89,85 @@
                </div>
             </li>
         </ul>
-
       </div>
   </dd>
 
+<!-- browse -->
+<dd>
+    <a href="#panel3">Browse</a>
+    <div id="panel3" class="content">
+    <h3>networks</h3>
+       <ul class="example-orbit" data-orbit>
+            <li>
+              <img src="img/hell.jpg" alt="slide 1" />
+               <div class="orbit-caption">
+                          Hell on Wheels
+               </div>
+                  </li>
+                  <li>
+              <img src="img/board.jpg" alt="slide 2" />
+                <div class="orbit-caption">
+                  Boardwalk Empire
+                  </div>
+                  </li>
+                  <li>
+                <img src="img/mad.jpg" alt="slide 3" />
+                  <div class="orbit-caption">
+                  Mad Men
+               </div>
+            </li>
+        </ul>
+      <h3>popular movies</h3>
+        <ul class="example-orbit" data-orbit>
+            <li>
+              <img src="img/hell.jpg" alt="slide 1" />
+               <div class="orbit-caption">
+                          Hell on Wheels
+               </div>
+                  </li>
+                  <li>
+              <img src="img/board.jpg" alt="slide 2" />
+                <div class="orbit-caption">
+                  Boardwalk Empire
+                  </div>
+                  </li>
+                  <li>
+                <img src="img/mad.jpg" alt="slide 3" />
+                  <div class="orbit-caption">
+                  Mad Men
+               </div>
+            </li>
+        </ul>
+      <h3>popular series</h3>
+        <ul class="example-orbit" data-orbit>
+            <li>
+              <img src="img/hell.jpg" alt="slide 1" />
+               <div class="orbit-caption">
+                          Hell on Wheels
+               </div>
+                  </li>
+                  <li>
+              <img src="img/board.jpg" alt="slide 2" />
+                <div class="orbit-caption">
+                  Boardwalk Empire
+                  </div>
+                  </li>
+                  <li>
+                <img src="img/mad.jpg" alt="slide 3" />
+                  <div class="orbit-caption">
+                  Mad Men
+               </div>
+            </li>
+        </ul>
+      
+    </div>
+  </dd>
 
-
+<!-- panel 4 -->
 
  <dd>
-    <a href="#panel3">Users</a>
-    <div id="panel3" class="content">
+    <a href="#panel4">Users</a>
+    <div id="panel4" class="content">
        <ul> 
          <li><a href="#"><img class="profile" src="img/john.svg" alt="profile" />John</a></li>
          <li><a href="#"><img class="profile" src="img/danielle.svg" alt="profile" />Danielle</a></li> 
