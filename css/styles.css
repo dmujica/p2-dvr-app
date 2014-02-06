@@ -1,13 +1,17 @@
 body{
-	background: lightgrey;
+	background: #665f66;
 }
 
-h3 {
+.rec, .pwr {
+	margin-top: 15px;
+}
 
+.pwr {
+	margin-left: 5px;
 }
 
 #panel1 {
-	padding: 10px;
+	padding: 14px;
 }
 
 #maincontrol {
@@ -24,3 +28,10 @@ h3 {
 	width: 30%;
 }
 
+#searchbar {
+	margin: 10px 0 -10px 25px;
+}
+
+#right-label {
+	width: 180px;
+}

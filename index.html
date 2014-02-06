@@ -10,13 +10,14 @@
     <script src="js/vendor/modernizr.js"></script>
   </head>
   <body>
+
     <!-- top buttons -->
-  <div class="row topbuttons">
+  <div class="row">
     <div class="column grid_12">
-      <a href="#" class="button tiny radius rec"><img class="icons"src="img/record.svg"></a>
-      <a href="#" class="button tiny radius pwr"><img class="icons"src="img/power.svg"></a>
+      <a href="#" class="button tiny radius secondary rec"><img class="icons"src="img/record.svg"></a>
+      <a href="#" class="button tiny radius secondary pwr"><img class="icons"src="img/power.svg"></a>
     </div>
- </div>
+  </div>
 
    <!-- accordian -->
   <div class="row">
@@ -49,10 +50,26 @@
     </div>
   </dd>
 
-<!-- recorded show library slider -->  
+
   <dd>
     <a href="#panel2">Library</a>
       <div id="panel2" class="content">
+         <form>
+          <div class="row">
+            <div class="small-8">
+              <div id="searchbar" class="row">
+                <div class="small-3 columns">
+                  <label for="right-label" class="right inline"><img src="img/magnifying-glass.svg"></label>
+                </div>
+                <div class="small-9 columns">
+                  <input type="text" id="right-label" placeholder="Inline Text Input">
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+
+  <!-- recorded show library slider -->  
         <ul class="example-orbit" data-orbit>
             <li>
               <img src="img/hell.jpg" alt="slide 1" />
@@ -73,8 +90,13 @@
                </div>
             </li>
         </ul>
+
       </div>
   </dd>
+
+
+
+
  <dd>
     <a href="#panel3">Users</a>
     <div id="panel3" class="content">
