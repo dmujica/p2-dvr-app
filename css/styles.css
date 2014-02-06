@@ -53,11 +53,21 @@ body{
 }
 
 #searchbar {
-	margin: 10px 0 -10px 25px;
+	
+	margin: 0;
+}
+
+#searchbar img{
+	
+	width:70%;
+	padding: 0;
+	margin: 5px 15px 0 0;
 }
 
 #right-label {
-	width: 180px;
+	width: 260px;
+	margin: 10px 0 0 10px;
+
 }
 
 .profile {
