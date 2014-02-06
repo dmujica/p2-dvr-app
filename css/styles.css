@@ -2,12 +2,18 @@ body{
 	background: #242429;
 
 }
+
+.current-profile {
+	width: 20%;
+	margin-right: 10px;
+}
+
 #welcome{
  margin: 20px 0 0 17px;
 }
 
 #welcome a{
-	font-size: 2em;
+	font-size: 1.75em;
 	color: #fff;
 }
 
@@ -21,7 +27,7 @@ body{
 }
 
 .rec, .pwr {
-	margin-top: 35px;
+	margin-top: 25px;
 }
 
 .pwr {
