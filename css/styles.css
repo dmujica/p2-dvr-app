@@ -26,6 +26,16 @@ body{
 	list-style: none;
 }
 
+.reveal-modal a{
+	color: gray;
+
+}
+
+.reveal-modal ul{
+	margin: 0;
+	
+}
+
 .rec, .pwr {
 	margin-top: 25px;
 }
